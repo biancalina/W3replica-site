@@ -1,0 +1,21 @@
+extends ../_component/layout/template
+
+block config
+  -
+    var myTitle = 'JavaScript is easy to learn.';
+    var myDescription = 'JavaScript is the programming language of HTML and the Web.';
+    var landingPage = 'JavaScript';
+    var activeLink = '';
+block content
+  h1=myTitle
+  p=myDescription
+  h2 JavaScript Comments
+  p JavaScript comments can be used to explain JavaScript code, and to make it more readable.
+  h2 JavaScript Variables
+  p JavaScript variables are containers for storing data values.
+  h2 JavaScript Operators
+  p Assign values to variables and add them together:
+  ul
+    li var x = 5;
+    li var y = 2;
+    li var z = x + y;
